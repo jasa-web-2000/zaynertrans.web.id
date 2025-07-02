@@ -55,6 +55,8 @@ $rute = [
   "Travel Surabaya Pati",
   "Travel Surabaya Semarang",
   "Travel Surabaya Nganjuk",
+  "Travel Surabaya Jombang",
+  "Travel Surabaya Sragen",
   "Travel Surabaya Kediri",
   "Travel Surabaya Malang",
   "Travel Surabaya Tulungagung",
@@ -78,6 +80,7 @@ $rute = [
   "Travel Surabaya Pekalongan",
   "Travel Surabaya Blitar",
   "Travel Surabaya Demak",
+  "Travel Surabaya Boyolali",
 
   // 
 
@@ -85,6 +88,8 @@ $rute = [
   "Travel Pati Surabaya",
   "Travel Semarang Surabaya",
   "Travel Nganjuk Surabaya",
+  "Travel Jombang Surabaya",
+  "Travel Sragen Surabaya",
   "Travel Kediri Surabaya",
   "Travel Malang Surabaya",
   "Travel Tulungagung Surabaya",
@@ -108,6 +113,7 @@ $rute = [
   "Travel Pekalongan Surabaya",
   "Travel Blitar Surabaya",
   "Travel Demak Surabaya",
+  "Travel Boyolali Surabaya",
 
 ];
 
