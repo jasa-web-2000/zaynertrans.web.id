@@ -1,15 +1,17 @@
 <?php
 
-$domain = 'http://localhost/travel/sindenratantrans.web.id/';
+// $domain = 'http://localhost/travel/sindenratantrans.web.id/';
+$domain = 'https://jasa-web-2000.github.io/sindenratantrans.web.id/';
 $brand = 'Sinden Ratan Trans';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " - Travel Magelang Temanggung Jabodetabek";
-$desc = $brand . " menawarkan jasa Magelang Temanggung Jabodetabek dengan harga murah tahun "  . date('Y');
-$telp = '0823-7680-0773';
+$title = $brand . " - Travel Surabaya Terbaik No. 1";
+$desc = $brand . " menawarkan jasa Travel Surabaya tujuan se-Jatim dan se-Jateng dengan harga murah tahun "  . date('Y');
+$telp = '0851-9491-7881';
 // $telp2 = '0858-2179-2395';
-$alamat = 'R397+HX3 Candiroto, Kabupaten Temanggung, Jawa Tengah';
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.5221343199682!2d110.06235197499898!3d-7.181101592823893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTAnNTIuMCJTIDExMMKwMDMnNTMuNyJF!5e0!3m2!1sid!2sid!4v1744197608844!5m2!1sid!2sid';
+$alamat = 'Jl. DR. Wahidin No.58, Tumenggungan, Jetis, Kec. Lamongan, Kabupaten Lamongan, Jawa Timur';
+
+$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3959.0633332373277!2d112.415415868163!3d-7.11865941425313!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77f0b23b8cc82d%3A0xd8ef4422f5518e12!2sJl.%20DR.%20Wahidin%20No.58%2C%20Tumenggungan%2C%20Jetis%2C%20Kec.%20Lamongan%2C%20Kabupaten%20Lamongan%2C%20Jawa%20Timur%2062211!5e0!3m2!1sid!2sid!4v1751459749650!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
@@ -48,51 +50,79 @@ $menu = [
 
 
 $rute = [
-  "Travel Magelang Karawang",
-  "Travel Magelang Jakarta",
-  "Travel Magelang Bogor",
-  "Travel Magelang Depok",
-  "Travel Magelang Tangerang",
-  "Travel Magelang Bekasi",
-  "Travel Magelang Bandara",
 
-  "Travel Temanggung Karawang",
-  "Travel Temanggung Jakarta",
-  "Travel Temanggung Bogor",
-  "Travel Temanggung Depok",
-  "Travel Temanggung Tangerang",
-  "Travel Temanggung Bekasi",
-  "Travel Temanggung Bandara",
+  "Travel Surabaya Tuban",
+  "Travel Surabaya Pati",
+  "Travel Surabaya Semarang",
+  "Travel Surabaya Nganjuk",
+  "Travel Surabaya Kediri",
+  "Travel Surabaya Malang",
+  "Travel Surabaya Tulungagung",
+  "Travel Surabaya Madiun",
+  "Travel Surabaya Ngawi",
+  "Travel Surabaya Magetan",
+  "Travel Surabaya Pacitan",
+  "Travel Surabaya Solo",
+  "Travel Surabaya Pasuruan",
+  "Travel Surabaya Probolinggo",
+  "Travel Surabaya Jember",
+  "Travel Surabaya Lumajang",
+  "Travel Surabaya Banyuwangi",
+  "Travel Surabaya Bali",
+  "Travel Surabaya Jogja",
+  "Travel Surabaya Klaten",
+  "Travel Surabaya Purwokerto",
+  "Travel Surabaya Batang",
+  "Travel Surabaya Tegal",
+  "Travel Surabaya Brebes",
+  "Travel Surabaya Pekalongan",
+  "Travel Surabaya Blitar",
+  "Travel Surabaya Demak",
 
-  "Travel Karawang Magelang",
-  "Travel Jakarta Magelang",
-  "Travel Bogor Magelang",
-  "Travel Depok Magelang",
-  "Travel Tangerang Magelang",
-  "Travel Bekasi Magelang",
-  "Travel Bandara Magelang",
+  // 
 
-  "Travel Karawang Temanggung",
-  "Travel Jakarta Temanggung",
-  "Travel Bogor Temanggung",
-  "Travel Depok Temanggung",
-  "Travel Tangerang Temanggung",
-  "Travel Bekasi Temanggung",
-  "Travel Bandara Temanggung",
+  "Travel Tuban Surabaya",
+  "Travel Pati Surabaya",
+  "Travel Semarang Surabaya",
+  "Travel Nganjuk Surabaya",
+  "Travel Kediri Surabaya",
+  "Travel Malang Surabaya",
+  "Travel Tulungagung Surabaya",
+  "Travel Madiun Surabaya",
+  "Travel Ngawi Surabaya",
+  "Travel Magetan Surabaya",
+  "Travel Pacitan Surabaya",
+  "Travel Solo Surabaya",
+  "Travel Pasuruan Surabaya",
+  "Travel Probolinggo Surabaya",
+  "Travel Jember Surabaya",
+  "Travel Lumajang Surabaya",
+  "Travel Banyuwangi Surabaya",
+  "Travel Bali Surabaya",
+  "Travel Jogja Surabaya",
+  "Travel Klaten Surabaya",
+  "Travel Purwokerto Surabaya",
+  "Travel Batang Surabaya",
+  "Travel Tegal Surabaya",
+  "Travel Brebes Surabaya",
+  "Travel Pekalongan Surabaya",
+  "Travel Blitar Surabaya",
+  "Travel Demak Surabaya",
+
 ];
 
 $kota = [
+  [
+    'Surabaya',
+    'surabaya.jpg',
+  ],
   [
     'Magelang',
     'magelang.jpg',
   ],
   [
-    'Jakarta',
-    'jakarta.jpg',
-  ],
-  [
-    'Depok',
-    'depok.jpg',
+    'Semarang',
+    'semarang.jpg',
   ],
   [
     'Temanggung',
@@ -401,7 +431,7 @@ $galeri = [
                   </div>
                 </div>
 
-                <div class="col-span-full text-sm">
+                <!-- <div class="col-span-full text-sm">
                   <label
                     for="nomor"
                     class="block cursor-pointer font-medium">Nomor Whatsapp</label>
@@ -430,7 +460,7 @@ $galeri = [
                       autocomplete="off"
                       class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
                   </div>
-                </div>
+                </div> -->
 
                 <button
                   class="col-span-full px-5 py-2 border-2 border-primary hover:border-red-500 bg-primary hover:bg-red-500 text-slate-200 rounded-lg transition-all relative"
@@ -451,8 +481,9 @@ $galeri = [
         <div class="text-center inner-container">
           <h2 class="line-h2">Rute <?= $brand ?></h2>
           <p class="desc">
-            Pesan travel anda segera dan dapatkan berbagai promo menarik
-            khusus untuk hari ini!
+            <!-- Pesan travel anda segera dan dapatkan berbagai promo menarik
+            khusus untuk hari ini! -->
+            <?= $desc ?>
           </p>
         </div>
         <div
