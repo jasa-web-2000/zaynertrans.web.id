@@ -3,8 +3,8 @@
 $domain = 'http://localhost/travel/zaynertrans.web.id/';
 // $domain = 'https://jasa-web-2000.github.io/zaynertrans.web.id/';
 $brand = 'Zayner Trans';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.jpg';
+$logo = 'src/img/logo-asli-zayner-trans.jpg';
+$logoTransparent = 'src/img/logo-zayner-trans.png';
 $title = $brand . " - Travel Bandung Terbaik No. 1";
 $desc = $brand . " menawarkan jasa Travel Bandung tujuan se-Pulau Jawa dengan harga murah tahun "  . date('Y');
 $telp = '0858-7021-0699';
@@ -128,7 +128,7 @@ $galeri = [
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
-              src="<?= $domain . $logoPanjang ?>"
+              src="<?= $domain . $logoTransparent ?>"
               class="w-16 md:w-20 xl:w-24 m-auto rounded"
               alt="logo" />
           </a>
@@ -138,7 +138,7 @@ $galeri = [
             <button
               title="open nav"
               id="openNav"
-              class="bg-primary hover:bg-red-500 p-1 rounded md:hidden">
+              class="bg-primary hover:bg-orange-500 p-1 rounded md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -155,7 +155,7 @@ $galeri = [
 
             <!-- laptop -->
             <ul
-              class="hidden md:flex flex-col md:flex-row gap-8 lg:gap-11 [&_li]:flex [&_li]:items-center [&_li_a]:font-medium [&_li_a]:text-slate-700 hover:[&_li_a]:text-red-500 hover:[&_li]:scale-110 hover:[&_li]:transition-all">
+              class="hidden md:flex flex-col md:flex-row gap-8 lg:gap-11 [&_li]:flex [&_li]:items-center [&_li_a]:font-medium [&_li_a]:text-slate-700 hover:[&_li_a]:text-orange-500 hover:[&_li]:scale-110 hover:[&_li]:transition-all">
               <?php if (count($menu) > 0) : ?>
                 <?php foreach ($menu as $item) : ?>
                   <li><a href="<?= $item[1] ?>"><?= $item[0] ?></a></li>
@@ -164,7 +164,7 @@ $galeri = [
               <a
                 href="<?= $link_whatsapp ?>"
                 target="_blank"
-                class="flex gap-2 px-5 py-2 bg-primary hover:bg-red-500 text-slate-200 rounded-lg w-min">
+                class="flex gap-2 px-5 py-2 bg-primary hover:bg-orange-500 text-slate-200 rounded-lg w-min">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -187,11 +187,11 @@ $galeri = [
               class="fixed h-screen inset-0 py-20 px-5 z-20 bg-slate-950/90 md:hidden !hidden"
               id="popupNav">
               <div
-                class="bg-white h-full rounded flex p-5 flex-col md:flex-row gap-5 [&_li]:flex [&_li]:items-center [&_li_a]:font-medium [&_li_a]:text-slate-700 hover:[&_li_a]:text-red-500 hover:[&_li]:transition-all hover:[&_li_a]:scale-110 relative">
+                class="bg-white h-full rounded flex p-5 flex-col md:flex-row gap-5 [&_li]:flex [&_li]:items-center [&_li_a]:font-medium [&_li_a]:text-slate-700 hover:[&_li_a]:text-orange-500 hover:[&_li]:transition-all hover:[&_li_a]:scale-110 relative">
                 <button
                   title="close nav"
                   id="closeNav"
-                  class="absolute right-5 top-5 bg-primary hover:bg-red-500 p-1 rounded md:hidden">
+                  class="absolute right-5 top-5 bg-primary hover:bg-orange-500 p-1 rounded md:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -214,7 +214,7 @@ $galeri = [
                 <a
                   href="<?= $link_whatsapp ?>"
                   target="_blank"
-                  class="flex gap-2 px-5 py-2 bg-primary hover:bg-red-500 text-slate-200 rounded-lg w-min">
+                  class="flex gap-2 px-5 py-2 bg-primary hover:bg-orange-500 text-slate-200 rounded-lg w-min">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -258,7 +258,7 @@ $galeri = [
               <a
                 href="<?= $link_whatsapp ?>"
                 target="_blank"
-                class="flex gap-2 px-5 py-2 border-2 border-primary hover:border-red-500 bg-primary hover:bg-red-500 text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+                class="flex gap-2 px-5 py-2 border-2 border-primary hover:border-orange-500 bg-primary hover:bg-orange-500 text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -275,14 +275,14 @@ $galeri = [
               </a>
               <a
                 href="#rute-travel"
-                class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-red-500 bg-slate-200 hover:bg-red-500 text-slate-800 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+                class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-orange-500 bg-slate-200 hover:bg-orange-500 text-slate-800 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
                 Rute
               </a>
             </div>
           </div>
           <div class="md:!col-span-5 p-5 md:p-10 md:-top-10 lg:p-20 z-10">
             <div
-              class="bg-white rounded-2xl border-b-8 border-red-500 shadow-lg p-5 px-7">
+              class="bg-white rounded-2xl border-b-8 border-orange-500 shadow-lg p-5 px-7">
               <p class="flex gap-x-2 font-medium">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +314,7 @@ $galeri = [
                       name="nama"
                       id="nama"
                       autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
+                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50" />
                   </div>
                 </div>
 
@@ -330,7 +330,7 @@ $galeri = [
                         name="asal"
                         id="asal"
                         autocomplete="off"
-                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
+                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50" />
                     </div>
                   </div>
                   <div class="text-sm">
@@ -344,7 +344,7 @@ $galeri = [
                         name="tujuan"
                         id="tujuan"
                         autocomplete="off"
-                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
+                        class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50" />
                     </div>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ $galeri = [
                       id="jumlah"
                       name="jumlah"
                       autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50">
+                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50">
                       <option>1 Orang</option>
                       <option>2 Orang</option>
                       <option>3 Orang</option>
@@ -383,7 +383,7 @@ $galeri = [
                       name="nomor"
                       id="nomor"
                       autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
+                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50" />
                   </div>
                 </div>
 
@@ -398,12 +398,12 @@ $galeri = [
                       name="jadwal"
                       id="jadwal"
                       autocomplete="off"
-                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
+                      class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-orange-500 placeholder:text-gray-400 bg-slate-50" />
                   </div>
                 </div> -->
 
                 <button
-                  class="col-span-full px-5 py-2 border-2 border-primary hover:border-red-500 bg-primary hover:bg-red-500 text-slate-200 rounded-lg transition-all relative"
+                  class="col-span-full px-5 py-2 border-2 border-primary hover:border-orange-500 bg-primary hover:bg-orange-500 text-slate-200 rounded-lg transition-all relative"
                   type="submit">
                   Pesan Sekarang
                 </button>
@@ -427,7 +427,7 @@ $galeri = [
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-6 [&>div]:sm:col-span-4 [&>div]:md:col-span-3 [&>div]:lg:col-span-2 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-sm [&_h3]:text-slate-700 hover:[&_h3]:text-red-500 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_svg]:size-4 [&_svg]:mx-2 [&_svg]:py-0.5 [&_svg]:inline-block">
+          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-6 [&>div]:sm:col-span-4 [&>div]:md:col-span-3 [&>div]:lg:col-span-2 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-sm [&_h3]:text-slate-700 hover:[&_h3]:text-orange-500 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_svg]:size-4 [&_svg]:mx-2 [&_svg]:py-0.5 [&_svg]:inline-block">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
               <div class="">
@@ -470,17 +470,17 @@ $galeri = [
     <!-- Rute Travel -->
 
     <!-- Tentang Kami -->
-    <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-red-500 py-20">
+    <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-orange-500 py-20">
       <div class="container">
         <div class="grid grid-cols-12 gap-8">
           <div class="col-span-full md:col-span-6">
             <div class="w-full max-w-[400px]">
-              <img src="<?= $domain . 'src/img/logo.jpg' ?>" class="rounded-lg" alt="tentang <?= $brand ?>">
+              <img src="<?= $domain . $logo ?>" class="rounded-lg" alt="tentang <?= $brand ?>">
             </div>
           </div>
           <div class="col-span-full md:col-span-6">
             <div class="text inner-container">
-              <h2 class="line-h2 left-12 text-slate-50 before:!bg-red-300 after:!bg-red-300">Tentang Kami</h2>
+              <h2 class="line-h2 left-12 text-slate-50 before:!bg-orange-300 after:!bg-orange-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
                 <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id" class="underline" target="_blank">travel</a> ke berbagai daerah, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
               </p>
@@ -504,7 +504,7 @@ $galeri = [
     <!-- Tentang Kami -->
 
     <!-- Kota Populer -->
-    <section class=" mb-20 bg-red-50">
+    <section class=" mb-20 bg-orange-50">
       <div class="container">
         <div class="py-20">
           <div class="text-center inner-container">
@@ -515,7 +515,7 @@ $galeri = [
             </p>
           </div>
           <div
-            class="grid grid-cols-8 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-4 [&>*]:md:!col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&>*]:before:absolute [&>*]:before:content-[''] [&>*]:before:z-[2] [&>*]:before:inset-0 [&>*]:before:bg-slate-950/55 [&_img]:w-full [&_img]:h-full [&_img]:object-cover [&_img]:absolute [&_img]:inset-0 [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-red-500 [&_a]:bg-primary hover:[&_a]:bg-red-500 [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
+            class="grid grid-cols-8 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-4 [&>*]:md:!col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&>*]:before:absolute [&>*]:before:content-[''] [&>*]:before:z-[2] [&>*]:before:inset-0 [&>*]:before:bg-slate-950/55 [&_img]:w-full [&_img]:h-full [&_img]:object-cover [&_img]:absolute [&_img]:inset-0 [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-orange-500 [&_a]:bg-primary hover:[&_a]:bg-orange-500 [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
             <?php if (count($kota) > 0) : ?>
               <?php foreach ($kota as $item) : ?>
                 <div class="group">
@@ -544,7 +544,7 @@ $galeri = [
     <section class="container my-20">
       <div class="w-full">
         <div
-          class="bg-gradient-to-tr from-primary to-red-500 rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
+          class="bg-gradient-to-tr from-primary to-orange-500 rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
           <div class="max-w-2xl mx-auto">
             <h2 class="text-white text-4xl">
               Apakah anda ingin perjalanan travel yang aman dan cepat?
@@ -559,12 +559,12 @@ $galeri = [
             class="flex justify-center gap-4 mt-8 sm:flex-row sm:items-center sm:gap-5">
             <a
               href="<?= $link_whatsapp ?>"
-              class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-red-500 bg-white hover:bg-red-500 text-slate-700 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+              class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-orange-500 bg-white hover:bg-orange-500 text-slate-700 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
               Pesan
             </a>
             <a
               href="#rute-travel"
-              class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-red-500 bg-transparent hover:bg-red-500 text-slate-200 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+              class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-orange-500 bg-transparent hover:bg-orange-500 text-slate-200 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
               Rute
             </a>
           </div>
@@ -637,7 +637,7 @@ $galeri = [
     <!-- CTA -->
 
     <!-- Galeri -->
-    <section class="bg-red-50 my-20 py-20"
+    <section class="bg-orange-50 my-20 py-20"
       id="galeri">
       <div class="container">
         <div class="">
@@ -685,7 +685,7 @@ $galeri = [
           </p>
         </div>
         <div
-          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-gradient-to-r [&_.user-testimoni_img]:from-red-500 [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
+          class="[&>div]:h-full [&>div]:px-10 [&>div]:pb-10 containerSwipper [&_.itemSlider]:shadow-2xl [&_.itemSlider]:p-5 [&_.itemSlider]:border [&_.itemSlider]:rounded-xl [&_.itemSlider]:col-span-full [&_.itemSlider]:sm:col-span-6 [&_.itemSlider]:lg:col-span-4 first:[&_.itemSlider>div]:flex [&>img]:first:[&_.itemSlider>div]:w-4 [&_.testimoni]:text-slate-500 [&_.testimoni]:text-[15px] [&_.testimoni]:my-5 [&_.testimoni]:testimoni-text [&_.user-testimoni]:flex [&_.user-testimoni]:gap-x-4 [&_.user-testimoni_img]:w-10 [&_.user-testimoni_img]:border [&_.user-testimoni_img]:rounded-3xl [&_.user-testimoni_img]:p-1 [&_.user-testimoni_img]:bg-gradient-to-r [&_.user-testimoni_img]:from-orange-500 [&_.user-testimoni_img]:to-primary [&_.user-testimoni_div]:flex [&_.user-testimoni_div]:flex-col [&_.user-testimoni_div]:justify-center first:[&_.user-testimoni_div_p]:font-semibold first:[&_.user-testimoni_div_p]:text-sm last:[&_.user-testimoni_div_p]:text-slate-500 last:[&_.user-testimoni_div_p]:text-xs">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -912,7 +912,7 @@ $galeri = [
     <!-- Testimoni -->
 
     <!-- Kontak -->
-    <section class="bg-red-50 mt-20 py-20"
+    <section class="bg-orange-50 mt-20 py-20"
       id="kontak">
       <div class="container">
         <div class="">
@@ -934,7 +934,7 @@ $galeri = [
                 xmlns="http://www.w3.org/2000/svg"
                 class="size-10">
                 <path
-                  class="fill-red-500"
+                  class="fill-orange-500"
                   d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
               </svg>
               <h3>Alamat</h3>
@@ -950,7 +950,7 @@ $galeri = [
                 xmlns="http://www.w3.org/2000/svg"
                 class="size-10">
                 <path
-                  class="fill-red-500"
+                  class="fill-orange-500"
                   d="M586.923 256.013c-7.959-8.24-16.655-13.074-24.53-15.916 10.798-62.807 8.812-97.901-246.643-178.322C55.771-20.07 26.688 13.85 5.274 81.869L1.622 93.471c-5.794 18.406 4.43 38.025 22.836 43.82l83.405 26.257c18.407 5.794 38.025-4.43 43.82-22.836l3.652-11.602c16.587-52.69 97.773-28.905 143.76-14.428 45.986 14.477 126.155 41.49 109.568 94.18l-3.653 11.601c-5.794 18.406 4.43 38.025 22.836 43.82l83.405 26.257c18.406 5.795 38.025-4.429 43.82-22.835l2.369-8.038c4.933 2.036 10.229 5.149 15.123 10.215 17.553 18.182 23.378 53.308 16.842 101.589-11.335 83.657-44.21 113.537-79.221 123.481v-14.553c0-14.775-3.693-29.4-11.181-42.179-34.94-59.797-84.556-112.856-147.598-159.626v-35.34c0-2.745-2.246-4.992-4.991-4.992h-51.862a4.975 4.975 0 0 0-4.992 4.992v35.139h-59.199v-35.139a5.007 5.007 0 0 0-4.992-4.992H173.46a5.007 5.007 0 0 0-4.992 4.992v35.139C105.326 325.264 55.661 378.322 20.67 438.22c-7.487 12.778-11.18 27.403-11.18 42.177v32.894c0 46.87 37.985 84.855 84.854 84.855h330.984c46.136 0 83.581-36.824 84.745-82.679 56.115-13.143 87.95-58.928 99.111-141.316 7.497-55.335.005-95.082-22.261-118.138zM346.544 481.271l-33.304-11.858c3.533-7.12 5.57-15.115 5.57-23.606 0-29.35-23.809-53.159-53.208-53.159-29.35 0-53.209 23.81-53.209 53.159 0 29.4 23.859 53.21 53.209 53.21a52.961 52.961 0 0 0 29.386-8.859l18.266 30.026c-13.76 8.835-30.087 14.022-47.652 14.022-48.817 0-88.349-39.582-88.349-88.398 0-48.767 39.533-88.349 88.349-88.349s88.399 39.583 88.399 88.349c0 12.621-2.69 24.6-7.457 35.463z"></path>
               </svg>
               <h3>Telpon</h3>
@@ -969,7 +969,7 @@ $galeri = [
                 xmlns="http://www.w3.org/2000/svg"
                 class="size-10">
                 <path
-                  class="fill-red-500"
+                  class="fill-orange-500"
                   d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
               </svg>
               <h3>Whatsapp</h3>
@@ -984,7 +984,7 @@ $galeri = [
             title="alamat"
             src="<?= $iframe ?>"
             allowfullscreen=""
-            class="w-full h-60 border-4 brightness-75 hover:brightness-100 transition-all duration-700 shadow-lg rounded-lg border-red-500"
+            class="w-full h-60 border-4 brightness-75 hover:brightness-100 transition-all duration-700 shadow-lg rounded-lg border-orange-500"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <?php endif ?>
       </div>
@@ -1033,7 +1033,7 @@ $galeri = [
       &#169; copyright - developed by
       <a
         href="https://dionzebua.com"
-        class="underline text-red-500"
+        class="underline text-orange-500"
         target="_blank">Dion Zebua</a>
     </p>
   </footer>

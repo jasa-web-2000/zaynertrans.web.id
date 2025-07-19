@@ -22,7 +22,7 @@ h3 {
 }
 
 .line-h2 {
-  @apply relative inline-block before:content-[''] before:absolute before:right-[calc(100%+10px)] before:top-1/2 before:translate-y-1/2 before:w-10 before:h-[1px] before:bg-blue-600 mb-5 after:content-[''] after:absolute after:left-[calc(100%+10px)] after:top-1/2 after:translate-y-1/2 after:w-10 after:h-[1px] after:bg-blue-600;
+  @apply relative inline-block before:content-[''] before:absolute before:right-[calc(100%+10px)] before:top-1/2 before:translate-y-1/2 before:w-10 before:h-[1px] before:bg-orange-600 mb-5 after:content-[''] after:absolute after:left-[calc(100%+10px)] after:top-1/2 after:translate-y-1/2 after:w-10 after:h-[1px] after:bg-orange-600;
 }
 
 p.desc {
