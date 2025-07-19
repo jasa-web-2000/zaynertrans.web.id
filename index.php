@@ -5,8 +5,8 @@ $domain = 'https://zaynertrans.web.id/';
 $brand = 'Zayner Trans';
 $logo = 'src/img/logo-asli-zayner-trans.jpg';
 $logoTransparent = 'src/img/logo-zayner-trans.png';
-$title = $brand . " - Travel Bandung Terbaik No. 1";
-$desc = $brand . " menawarkan jasa Travel Bandung tujuan se-Pulau Jawa dengan harga murah tahun "  . date('Y');
+$title = $brand . " - Travel Bandung Semarang & se-Pulau Jawa";
+$desc = $brand . " menawarkan jasa Travel Bandung tujuan Semarang dan se-Pulau Jawa dengan harga murah tahun "  . date('Y');
 $telp = '0858-7021-0699';
 // $telp2 = '0858-2179-2395';
 $alamat = 'Jl. Dr. Djundjunan No.76a, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162';
@@ -49,7 +49,23 @@ $menu = [
 
 
 
-$rute = [];
+$rute = [
+  "Travel Bandung - Banten",
+  "Travel Bandung - DKI Jakarta",
+  "Travel Bandung - Jawa Barat",
+  "Travel Bandung - Jawa Tengah",
+  "Travel Bandung - DI Yogyakarta",
+  "Travel Bandung - Jawa Timur",
+  "Travel Bandung - Bali",
+
+  "Travel Banten - Bandung",
+  "Travel DKI Jakarta - Bandung",
+  "Travel Jawa Barat - Bandung",
+  "Travel Jawa Tengah - Bandung",
+  "Travel DI Yogyakarta - Bandung",
+  "Travel Jawa Timur - Bandung",
+  "Travel Bali - Bandung",
+];
 
 $kota = [
   [
@@ -124,7 +140,7 @@ $galeri = [
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <header class="">
     <div class="container !py-0">
-      <div class="flex justify-between py-4">
+      <div class="flex justify-between py-2">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
@@ -718,7 +734,7 @@ $galeri = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <?= $rute[0] ?>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
+                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <?= $rute[1] ?>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
                   </p>
                   <div class="user-testimoni">
                     <img

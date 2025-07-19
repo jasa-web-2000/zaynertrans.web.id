@@ -1170,6 +1170,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .text-left {
   text-align: left;
 }
