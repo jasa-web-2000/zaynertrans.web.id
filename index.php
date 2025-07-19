@@ -1099,12 +1099,10 @@ $galeri = [
         'asal': e.target[1].value,
         'tujuan': e.target[2].value,
         'jumlah': e.target[3].value,
-        'nomor': e.target[4].value,
-        'jadwal': e.target[5].value,
       }
       console.log(data);
 
-      const text = `Saya ingin memesan travel!%0A%0A*Nama* : ${data.nama}%0A*Asal* : ${data.asal}%0A*Tujuan* : ${data.tujuan}%0A*Jumlah* : ${data.jumlah}%0A*Nomor* : ${data.nomor}%0A*Jadwal* : ${data.jadwal.replace('T', ' ')}%0A%0A${window.location.href}`
+      const text = `Saya ingin memesan travel!%0A%0A*Nama* : ${data.nama}%0A*Asal* : ${data.asal}%0A*Tujuan* : ${data.tujuan}%0A*Jumlah* : ${data.jumlah}%0A%0A${window.location.href}`
       window.open(`https://wa.me/<?= $res_telp ?>/?text=${text}`, '_blank')
     })
   </script>
