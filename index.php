@@ -1,7 +1,7 @@
 <?php
 
-$domain = 'http://localhost/travel/zaynertrans.web.id/';
-// $domain = 'https://jasa-web-2000.github.io/zaynertrans.web.id/';
+// $domain = 'http://localhost/travel/zaynertrans.web.id/';
+$domain = 'https://zaynertrans.web.id/';
 $brand = 'Zayner Trans';
 $logo = 'src/img/logo-asli-zayner-trans.jpg';
 $logoTransparent = 'src/img/logo-zayner-trans.png';
