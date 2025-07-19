@@ -1,17 +1,17 @@
 <?php
 
-// $domain = 'http://localhost/travel/sindenratantrans.web.id/';
-$domain = 'https://jasa-web-2000.github.io/sindenratantrans.web.id/';
-$brand = 'Sinden Ratan Trans';
+$domain = 'http://localhost/travel/zaynertrans.web.id/';
+// $domain = 'https://jasa-web-2000.github.io/zaynertrans.web.id/';
+$brand = 'Zayner Trans';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " - Travel Surabaya Terbaik No. 1";
-$desc = $brand . " menawarkan jasa Travel Surabaya tujuan se-Jatim dan se-Jateng dengan harga murah tahun "  . date('Y');
-$telp = '0851-9491-7881';
+$title = $brand . " - Travel Bandung Terbaik No. 1";
+$desc = $brand . " menawarkan jasa Travel Bandung tujuan se-Pulau Jawa dengan harga murah tahun "  . date('Y');
+$telp = '0858-7021-0699';
 // $telp2 = '0858-2179-2395';
-$alamat = 'Jl. DR. Wahidin No.58, Tumenggungan, Jetis, Kec. Lamongan, Kabupaten Lamongan, Jawa Timur';
+$alamat = 'Jl. Dr. Djundjunan No.76a, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3959.0633332373277!2d112.415415868163!3d-7.11865941425313!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77f0b23b8cc82d%3A0xd8ef4422f5518e12!2sJl.%20DR.%20Wahidin%20No.58%2C%20Tumenggungan%2C%20Jetis%2C%20Kec.%20Lamongan%2C%20Kabupaten%20Lamongan%2C%20Jawa%20Timur%2062211!5e0!3m2!1sid!2sid!4v1751459749650!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3960.9472004104477!2d107.59230569!3d-6.89691892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e700127a9fd3%3A0xf8d74c9073c9491a!2sZayner%20Trans!5e0!3m2!1sid!2sid!4v1752924143074!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
@@ -49,90 +49,24 @@ $menu = [
 
 
 
-$rute = [
-
-  "Travel Surabaya Tuban",
-  "Travel Surabaya Pati",
-  "Travel Surabaya Semarang",
-  "Travel Surabaya Nganjuk",
-  "Travel Surabaya Jombang",
-  "Travel Surabaya Sragen",
-  "Travel Surabaya Kediri",
-  "Travel Surabaya Malang",
-  "Travel Surabaya Tulungagung",
-  "Travel Surabaya Madiun",
-  "Travel Surabaya Ngawi",
-  "Travel Surabaya Magetan",
-  "Travel Surabaya Pacitan",
-  "Travel Surabaya Solo",
-  "Travel Surabaya Pasuruan",
-  "Travel Surabaya Probolinggo",
-  "Travel Surabaya Jember",
-  "Travel Surabaya Lumajang",
-  "Travel Surabaya Banyuwangi",
-  "Travel Surabaya Bali",
-  "Travel Surabaya Jogja",
-  "Travel Surabaya Klaten",
-  "Travel Surabaya Purwokerto",
-  "Travel Surabaya Batang",
-  "Travel Surabaya Tegal",
-  "Travel Surabaya Brebes",
-  "Travel Surabaya Pekalongan",
-  "Travel Surabaya Blitar",
-  "Travel Surabaya Demak",
-  "Travel Surabaya Boyolali",
-
-  // 
-
-  "Travel Tuban Surabaya",
-  "Travel Pati Surabaya",
-  "Travel Semarang Surabaya",
-  "Travel Nganjuk Surabaya",
-  "Travel Jombang Surabaya",
-  "Travel Sragen Surabaya",
-  "Travel Kediri Surabaya",
-  "Travel Malang Surabaya",
-  "Travel Tulungagung Surabaya",
-  "Travel Madiun Surabaya",
-  "Travel Ngawi Surabaya",
-  "Travel Magetan Surabaya",
-  "Travel Pacitan Surabaya",
-  "Travel Solo Surabaya",
-  "Travel Pasuruan Surabaya",
-  "Travel Probolinggo Surabaya",
-  "Travel Jember Surabaya",
-  "Travel Lumajang Surabaya",
-  "Travel Banyuwangi Surabaya",
-  "Travel Bali Surabaya",
-  "Travel Jogja Surabaya",
-  "Travel Klaten Surabaya",
-  "Travel Purwokerto Surabaya",
-  "Travel Batang Surabaya",
-  "Travel Tegal Surabaya",
-  "Travel Brebes Surabaya",
-  "Travel Pekalongan Surabaya",
-  "Travel Blitar Surabaya",
-  "Travel Demak Surabaya",
-  "Travel Boyolali Surabaya",
-
-];
+$rute = [];
 
 $kota = [
   [
-    'Surabaya',
-    'surabaya.jpg',
+    'Bandung',
+    'bandung.jpg',
   ],
   [
-    'Magelang',
-    'magelang.jpg',
+    'Jakarta',
+    'jakarta.jpg',
   ],
   [
     'Semarang',
     'semarang.jpg',
   ],
   [
-    'Temanggung',
-    'temanggung.jpg',
+    'Bali',
+    'bali.jpg',
   ],
 ];
 
