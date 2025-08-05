@@ -50,35 +50,35 @@ $menu = [
 
 
 $rute = [
-  "Travel Tasik Semarang",
-  "Travel Tasik Jogja",
-  "Travel Tasik Solo",
-  "Travel Tasik Jakarta",
+  "Travel Tasikmalaya Semarang",
+  "Travel Tasikmalaya Jogja",
+  "Travel Tasikmalaya Solo",
+  "Travel Tasikmalaya Cirebon",
 
   "Travel Garut Semarang",
   "Travel Garut Jogja",
   "Travel Garut Solo",
-  "Travel Garut Jakarta",
+  "Travel Garut Cirebon",
 
   "Travel Sumedang Semarang",
   "Travel Sumedang Jogja",
   "Travel Sumedang Solo",
-  "Travel Sumedang Jakarta",
+  "Travel Sumedang Cirebon",
 
-  "Travel Semarang Tasik",
-  "Travel Jogja Tasik",
-  "Travel Solo Tasik",
-  "Travel Jakarta Tasik",
+  "Travel Semarang Tasikmalaya",
+  "Travel Jogja Tasikmalaya",
+  "Travel Solo Tasikmalaya",
+  "Travel Cirebon Tasikmalaya",
 
   "Travel Semarang Garut",
   "Travel Jogja Garut",
   "Travel Solo Garut",
-  "Travel Jakarta Garut",
+  "Travel Cirebon Garut",
 
   "Travel Semarang Sumedang",
   "Travel Jogja Sumedang",
   "Travel Solo Sumedang",
-  "Travel Jakarta Sumedang",
+  "Travel Cirebon Sumedang",
 ];
 
 $kota = [
@@ -87,8 +87,8 @@ $kota = [
     'garut.jpg',
   ],
   [
-    'Jakarta',
-    'jakarta.jpg',
+    'Cirebon',
+    'cirebon.jpg',
   ],
   [
     'Semarang',
