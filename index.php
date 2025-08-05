@@ -1,12 +1,12 @@
 <?php
 
-// $domain = 'http://localhost/travel/zaynertrans.web.id/';
-$domain = 'https://zaynertrans.web.id/';
+$domain = 'http://localhost/travel/zaynertrans.web.id/';
+// $domain = 'https://zaynertrans.web.id/';
 $brand = 'Zayner Trans';
 $logo = 'src/img/logo-asli-zayner-trans.jpg';
 $logoTransparent = 'src/img/logo-zayner-trans.png';
-$title = $brand . " - Travel Bandung Semarang & se-Pulau Jawa";
-$desc = $brand . " menawarkan jasa Travel Bandung tujuan Semarang dan se-Pulau Jawa dengan harga murah tahun "  . date('Y');
+$title = $brand . " - Travel Reguler se-Pulau Jawa";
+$desc = $brand . " menawarkan jasa Travel reguler se-Pulau Jawa dengan harga murah tahun "  . date('Y');
 $telp = '0858-7021-0699';
 // $telp2 = '0858-2179-2395';
 $alamat = 'Jl. Dr. Djundjunan No.76a, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162';
@@ -50,27 +50,41 @@ $menu = [
 
 
 $rute = [
-  "Travel Bandung - Banten",
-  "Travel Bandung - DKI Jakarta",
-  "Travel Bandung - Jawa Barat",
-  "Travel Bandung - Jawa Tengah",
-  "Travel Bandung - DI Yogyakarta",
-  "Travel Bandung - Jawa Timur",
-  "Travel Bandung - Bali",
+  "Travel Tasik Semarang",
+  "Travel Tasik Jogja",
+  "Travel Tasik Solo",
+  "Travel Tasik Jakarta",
 
-  "Travel Banten - Bandung",
-  "Travel DKI Jakarta - Bandung",
-  "Travel Jawa Barat - Bandung",
-  "Travel Jawa Tengah - Bandung",
-  "Travel DI Yogyakarta - Bandung",
-  "Travel Jawa Timur - Bandung",
-  "Travel Bali - Bandung",
+  "Travel Garut Semarang",
+  "Travel Garut Jogja",
+  "Travel Garut Solo",
+  "Travel Garut Jakarta",
+
+  "Travel Sumedang Semarang",
+  "Travel Sumedang Jogja",
+  "Travel Sumedang Solo",
+  "Travel Sumedang Jakarta",
+
+  "Travel Semarang Tasik",
+  "Travel Jogja Tasik",
+  "Travel Solo Tasik",
+  "Travel Jakarta Tasik",
+
+  "Travel Semarang Garut",
+  "Travel Jogja Garut",
+  "Travel Solo Garut",
+  "Travel Jakarta Garut",
+
+  "Travel Semarang Sumedang",
+  "Travel Jogja Sumedang",
+  "Travel Solo Sumedang",
+  "Travel Jakarta Sumedang",
 ];
 
 $kota = [
   [
-    'Bandung',
-    'bandung.jpg',
+    'Garut',
+    'garut.jpg',
   ],
   [
     'Jakarta',
@@ -81,8 +95,8 @@ $kota = [
     'semarang.jpg',
   ],
   [
-    'Bali',
-    'bali.jpg',
+    'Jogja',
+    'jogja.jpg',
   ],
 ];
 
