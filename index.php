@@ -7,7 +7,7 @@ $logo = 'src/img/logo-asli-zayner-trans.jpg';
 $logoTransparent = 'src/img/logo-zayner-trans.png';
 $title = $brand . " - Travel Reguler se-Pulau Jawa";
 $desc = $brand . " menawarkan jasa Travel reguler se-Pulau Jawa dengan harga murah tahun "  . date('Y');
-$telp = '0858-7021-0699';
+$telp = '0815-1022-2388';
 // $telp2 = '0858-2179-2395';
 $alamat = 'Jl. Dr. Djundjunan No.76a, Sukabungah, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162';
 
